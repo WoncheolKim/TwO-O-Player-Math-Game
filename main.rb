@@ -8,7 +8,7 @@ p2 = Player.new('Player 2')
 turn = Turn.new()
 current_player = p2
 
-# game loop
+# main game loop
 while p1.lives > 0 && p2.lives > 0
   current_player = turn.swapPlayer(current_player, p1, p2)
 

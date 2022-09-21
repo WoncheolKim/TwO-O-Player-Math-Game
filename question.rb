@@ -1,4 +1,4 @@
-class question
+class Question
 
   attr_accessor :question, :answer
 
@@ -10,4 +10,3 @@ class question
     @answer = num1 + num2
   end
 end
-
